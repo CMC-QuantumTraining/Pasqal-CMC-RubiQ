@@ -10,7 +10,7 @@
 
 ![Iteration Evolution](media/iteration_evolution_Brandonberg.gif)
 
-*Iteration Evolution for the city Brandonberg*
+<p align="center"> *Iteration Evolution for the city Brandonberg* </p>
 
 ---
 
