@@ -8,8 +8,9 @@
 - Manimugdha Saikia
 - Esraa Sobhy
 
-![Iteration Evolution](media/iteration_evolution.gif)
+![Iteration Evolution](media/iteration_evolution_Brandonberg.gif)
 
+Iteration Evolution for the city Brandonberg
 ---
 
 ## Introduction
@@ -18,18 +19,18 @@ In this project, we’re tackling the challenge of finding the best antenna plac
 
 | Name                | Coverage | Antennas |
 |---------------------|----------|----------|
-| Bradleymouth        | 886      | 6        |
-| Brandonberg         | 850      | 3        |
-| Hansenchester       | 816      | 4        |
-| Joshuachester       | 866      | 5        |
-| New Rebeccaberg     | 845      | 6        |
-| North Cal           | 847      | 3        |
-| Nort Christopherbuty| 859      | 5        |
-| North Joshua        | 746      | 4        |
-| Port Jonathan       | 857      | 5        |
-| Zacharyburgh        | 819      | 4        |
-| **Total**           | **8391** | **45**   |
-| **Average**         | **839.1**| **4.5**  |
+| Bradleymouth        | 873      | 6        |
+| Brandonberg         | 909      | 3        |
+| Hansenchester       | 874      | 5        |
+| Joshuachester       | 748      | 4        |
+| New Rebeccaberg     | 828      | 5        |
+| North Cal           | 900      | 3        |
+| Nort Christopherbuty| 864      | 6        |
+| North Joshua        | 712      | 3        |
+| Port Jonathan       | 831      | 5        |
+| Zacharyburgh        | 827      | 4        |
+| **Total**           | **8366** | **44**   |
+| **Average**         | **836.6**| **4.4**  |
 
 ## Our Approach
 
@@ -58,7 +59,7 @@ The repository includes folders for data and figures, and several notebooks deta
 - **`figures/`**: Holds `.png` files for each city, showing population scatter plots and optimized antenna placements (with coverage circles). Also includes coverage evolution graphs for each iteration in simulated annealing.
 - **`media/`**: Contains:
     - `Hackathon_logistics.pdf`
-    - `iteration_evolution.gif`: Displays the progression of antenna placements over iterations for *Bradleymouth*.
+    - `iteration_evolution_city_name.gif`: Displays the progression of antenna placements over iterations.
     - `optimized_values.npz`: Stores optimized pulse parameters for computing the MIS.
 
 ### Jupyter Notebook Files
