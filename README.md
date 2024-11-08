@@ -43,7 +43,7 @@ Along the way, we tested several approaches:
 
 - **Classical Solver (GLPK)**: Used `GLPK` in the `pulp` package to get an idea of the optimal MIS for a graph.
 - **QUBO Reformulation**: We reformulated the problem as a QUBO (Quadratic Unconstrained Binary Optimization) problem, making it easier to map onto the NAQC register.
-- **Pulse Optimization**: To align the system's Hamiltonian with our cost function, we optimized pulse parameters based on [this paper](https://arxiv.org/abs/2202.09372). However, our initial values were already giving solid results.
+- **Pulse Optimization**: To align the system's Hamiltonian with our cost function, we optimized pulse parameters based on [this paper](https://arxiv.org/abs/2202.09372). 
 - **Detuning Map Channel**: We tested applying a detuning map where each qubit’s detuning is proportional to the population it covers. Although this didn't improve results, we documented it as part of the process.
 
 ## Final Solution
@@ -66,6 +66,6 @@ The repository includes folders for data and figures, and several notebooks deta
 ### Jupyter Notebook Files
 
 - **`classical_linear_solver.ipynb`**: Classical solution using the GLPK solver from `pulp`.
-- **`dmm_implementation.ipynb`**: Implementation of the detuning map channel.
-- **`main_algorithm.ipynb`**: Contains our **main solution**, detailing the final approach. This notebook generates files in the `figures` folder and the `.gif` in `media`.
 - **`pulse_optimization.ipynb`**: Implements the pulse optimization approach from [this paper](https://arxiv.org/abs/2202.09372). Saves optimized pulse parameters in `optimized_values.npz`.
+- **`main_algorithm.ipynb`**: Contains our **main solution**, detailing the final approach. This notebook generates files in the `figures` folder and the `.gif` in `media`.
+- **`second_algorithm.ipynb`**: Generate a fixed using a greedy algorithm. Then using a detuning map and the rydberg chanel, we optimize the parametrs to generate the MWIS of the givem grid.
