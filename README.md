@@ -68,4 +68,4 @@ The repository includes folders for data and figures, and several notebooks deta
 - **`classical_linear_solver.ipynb`**: Classical solution using the GLPK solver from `pulp`.
 - **`pulse_optimization.ipynb`**: Implements the pulse optimization approach from [this paper](https://arxiv.org/abs/2202.09372). Saves optimized pulse parameters in `optimized_values.npz`.
 - **`main_algorithm.ipynb`**: Contains our **main solution**, detailing the final approach. This notebook generates files in the `figures` folder and the `.gif` in `media`.
-- **`second_algorithm.ipynb`**: Generate a fixed grid using a greedy algorithm. Then using a detuning map and the rydberg chanel, we optimize the parameters to generate the MWIS of the givem grid.
+- **`second_algorithm.ipynb`**: Generate a fixed grid using a greedy algorithm. Then using a detuning map and the rydberg chanel, we optimize the parameters to generate the MWIS of the given grid.
