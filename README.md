@@ -10,7 +10,7 @@
 
 ![Iteration Evolution](media/iteration_evolution_Brandonberg.gif)
 
-<p align="center"> *Iteration Evolution for the city Brandonberg* </p>
+<p align="center"> Iteration Evolution for the city Brandonberg </p>
 
 ---
 
@@ -58,9 +58,9 @@ The repository includes folders for data and figures, and several notebooks deta
 
 - **`data/`**: Contains population distribution data for each city.
 - **`figures/`**: Holds `.png` files for each city, showing population scatter plots and optimized antenna placements (with coverage circles). Also includes coverage evolution graphs for each iteration in simulated annealing.
-- **`media/`**: Contains:
+- **`media/`**: Contains
     - `Hackathon_logistics.pdf`
-    - `iteration_evolution_city_name.gif`: Displays the progression of antenna placements over iterations.
+    - `iteration_evolution_{city_name}.gif`: Displays the progression of antenna placements over iterations for each city.
     - `optimized_values.npz`: Stores optimized pulse parameters for computing the MIS.
 
 ### Jupyter Notebook Files
